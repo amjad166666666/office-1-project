@@ -1,0 +1,106 @@
+.fearure-main-Div {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.fearure-logo-div {
+  
+  display: flex;
+ justify-content: space-around;
+}
+
+.featureLogose {
+  
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 10px #dddddd;
+  border-radius: 10px;
+ 
+}
+
+@media (max-width: 1202px) {
+  #logofeature {
+    display: none;
+  }
+  .fearure-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 768px) {
+  .fearure-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featureLogose {
+    background-color: white;
+    padding: 10px;
+    width: 80px;
+  }
+}
+@media (max-width: 506px) {
+  .fearure-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featureLogose {
+    background-color: white;
+    padding: 10px;
+    width: 70px;
+  }
+}
+@media (max-width: 481px) {
+  .fearure-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featureLogose {
+    background-color: white;
+    padding: 10px;
+    width: 60px;
+  }
+}
+@media (max-width: 430px) {
+  .fearure-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featureLogose {
+    background-color: white;
+    padding: 10px;
+    width: 50px;
+  }
+}
+@media (max-width: 396px) {
+  .fearure-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featureLogose {
+    background-color: white;
+    padding: 10px;
+    width: 40px;
+  }
+}
+@media (max-width: 359px) {
+  .fearure-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featureLogose {
+    background-color: white;
+    padding: 10px;
+    width: 30px;
+  }
+}
+@media (max-width: 376px) {
+  .fearure-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .featureLogose {
+    background-color: white;
+    padding: 10px;
+    width: 25px;
+  }
+}

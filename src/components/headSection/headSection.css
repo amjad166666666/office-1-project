@@ -1,0 +1,161 @@
+.HeadSection-main-Div {
+ background:  linear-gradient(to right, #ffff, #fdefde, #d8e4fc);
+ background: linear-gradient(to bottom white);
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+box-shadow: -2px 31px 27px whitesmoke;;
+}
+
+.span-text {
+  color: orange;
+}
+
+.heading-main {
+  font-size: 40px;
+}
+
+.description {
+  font-size: 18px;
+  color: rgb(109, 105, 105);
+  font-family: sans-serif;
+}
+
+.headSection-Btn {
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(39, 39, 226);
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#btn-hedsection {
+  margin-left: 20px;
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.Awards-div {
+  width: 340px;
+  margin-top: 30px;
+}
+
+.Awards-img {
+  width: 100%;
+}
+
+.home-baner-div {
+  width: 550px;
+}
+
+.home-banner-img {
+  width: 100%;
+}
+
+.main-head-section-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1214px) {
+  .home-baner-div {
+    width: 450px;
+  }
+}
+@media (max-width: 1120px) {
+  .home-baner-div {
+    width: 400px;
+  }
+
+  .heading-main {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+
+  .headSection-Btn {
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px;
+    border-radius: 7px;
+  }
+  .Awards-div {
+    width: 200px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 885px) {
+  .heading-main {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .headSection-Btn {
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(39, 39, 226);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .Awards-div {
+    width: 340px;
+    margin-top: 30px;
+  }
+
+  .home-baner-div {
+    width: 550px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 506px) {
+  .heading-main {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+
+  .headSection-Btn {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(39, 39, 226);
+    border: none;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .Awards-div {
+    width: 180px;
+    margin-top: 30px;
+  }
+
+  .home-baner-div {
+    width: 450px;
+    margin-top: 20px;
+  }
+  .HeadSection-main-Div {
+    background: linear-gradient(to right, #ffff, #e7ca95);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

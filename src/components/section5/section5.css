@@ -1,0 +1,52 @@
+.sectionH1{
+  text-align: center;
+}
+
+
+
+
+.picAndText{
+  display: flex;
+  justify-content: space-around;
+}
+
+  .img5pc{
+    width: 400px;
+  }
+
+  .sec5buttons{
+    display: flex;
+margin-top: 10px;
+   width: fit-content;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 6px;
+  box-shadow: 0 0 6px gray;
+  }
+  .smalltexts{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .btn-sec-5{
+    background-color: rgb(80, 80, 220);
+    padding: 15px;
+    border: none;
+border-radius: 7px;
+color: white;
+  }
+
+  #btn-Sec5{
+    background: transparent;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-top: 30px;
+    color: black;
+  }
+  
+
+  .sec5-p{
+    width: 400px;
+  }
